@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Routes from './router';
+
 function App() {
-  return <h1>StartUP</h1>;
+  return <Routes />;
 }
 
 export default App;
