@@ -26,7 +26,13 @@ export default function News() {
           uma segunda linguá e menos de 3% têm fluência em inglês. Ao contrário
           do que muita gente imagina, o problema não está só em pessoas de
           cargos mais baixos. <strong>Veja a matéria completa</strong>
-          <a href="jefferson">clicando aqui</a>
+          <a
+            href="https://exame.abril.com.br/carreira/por-que-ainda-nao-somos-fluentes-em-ingles/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            clicando aqui
+          </a>
         </p>
       </div>
     </Container>
