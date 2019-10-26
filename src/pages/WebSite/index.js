@@ -4,10 +4,12 @@ import React from 'react';
 
 import Contact from '../../components/Contact';
 import Benefits from '../../components/Benefits';
+import News from '../../components/News';
 
 export default function WebSite() {
   return (
     <>
+      <News />
       <Benefits />
       <Contact />
     </>

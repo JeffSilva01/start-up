@@ -15,7 +15,6 @@ export default function Benefits() {
           <button type="button">Negociações</button>
           <button type="button">Seleções</button>
           <button type="button">Reuniões</button>
-          <br />
           <button type="button">E-mails</button>
           <button type="button">Análises de relatórios</button>
           <button type="button">Telefonemas</button>
