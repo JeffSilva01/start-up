@@ -12,9 +12,20 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
 
+    @media (max-width: 720px) {
+      width: 100%;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+
     img {
       width: 600px;
       margin-right: 15px;
+
+      @media (max-width: 720px) {
+        width: 50%;
+      }
     }
 
     p {
@@ -24,6 +35,10 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      @media (max-width: 720px) {
+        width: 80%;
+      }
 
       strong {
         margin-top: 30px;
