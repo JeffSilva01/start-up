@@ -31,15 +31,12 @@ export default function Contact() {
         <div>
           <img src={Logo} alt="" />
           <div>
-            <h3>
-              www.<strong>startupidiomas</strong>.com.br
-            </h3>
             <h5>contato@startupidiomas.com.br</h5>
-            <a href="https://wa.me/55859978802657">
+            <a href="https://wa.me/5585997802657">
               85
               <strong>
-                997880-2657
-                <FaWhatsapp size="30" />
+                99780-2657
+                <FaWhatsapp size="20" />
               </strong>
             </a>
           </div>

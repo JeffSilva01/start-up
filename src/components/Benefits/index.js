@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Content, Buttons, Teste } from './styles';
 
 export default function Benefits() {
   return (
     <Container>
-      <div>
+      <Content>
         <h1>
           O aluno será estimulado desde <br /> o início para desenvolver alta
           performace em:
         </h1>
 
-        <div>
+        <Buttons>
           <button type="button">Negociações</button>
           <button type="button">Seleções</button>
           <button type="button">Reuniões</button>
@@ -19,9 +19,9 @@ export default function Benefits() {
           <button type="button">E-mails</button>
           <button type="button">Análises de relatórios</button>
           <button type="button">Telefonemas</button>
-        </div>
+        </Buttons>
 
-        <div>
+        <Teste>
           <div>
             <h2>Benefícios para a empresa:</h2>
             <p>
@@ -31,6 +31,8 @@ export default function Benefits() {
             </p>
           </div>
 
+          <hr />
+
           <div>
             <h2>Benefícios para os funcionários:</h2>
             <p>
@@ -39,8 +41,8 @@ export default function Benefits() {
               Investimento Valioso Horas complementares Certificado
             </p>
           </div>
-        </div>
-      </div>
+        </Teste>
+      </Content>
     </Container>
   );
 }
