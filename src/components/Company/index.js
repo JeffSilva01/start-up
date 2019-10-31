@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Content, Text } from './styles';
 
 import logo from '../../assets/logo.svg';
 import boy from '../../assets/boy.svg';
@@ -10,9 +10,9 @@ import trophy from '../../assets/trophy.svg';
 export default function Company() {
   return (
     <Container>
-      <div>
+      <Content>
         <img src={logo} alt="Logo StartUP" />
-        <div>
+        <Text>
           <div>
             <img src={boy} alt="boy" />
             <h1>Quem somos:</h1>
@@ -49,8 +49,8 @@ export default function Company() {
               motivação e engajamento.
             </p>
           </div>
-        </div>
-      </div>
+        </Text>
+      </Content>
     </Container>
   );
 }
