@@ -25,7 +25,7 @@ export default function Contact() {
             maxLength="250"
           />
 
-          <button type="submit">Eenviar</button>
+          <button type="submit">Enviar</button>
         </Form>
 
         <div>

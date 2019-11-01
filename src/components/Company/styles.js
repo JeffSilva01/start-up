@@ -14,10 +14,10 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 1100px;
+  max-width: 1100px;
+  padding: 20px;
   margin: auto;
   margin-top: -70px;
-  padding: 30px;
   @media (max-width: 720px) {
     padding: 20px;
     margin-top: -50px;
@@ -74,6 +74,11 @@ export const Text = styled.div`
       text-align: justify;
       @media (max-width: 720px) {
         text-align: center;
+      }
+
+      strong {
+        margin-top: 10px;
+        display: block;
       }
     }
 

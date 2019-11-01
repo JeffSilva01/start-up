@@ -13,6 +13,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 1100px;
   width: 100%;
+  padding: 0 20px;
   margin: auto;
 
   h1 {
@@ -23,6 +24,7 @@ export const Content = styled.div`
     @media (max-width: 720px) {
       font-size: 2rem;
       margin-bottom: 10px;
+      max-width: 300px;
     }
   }
 `;

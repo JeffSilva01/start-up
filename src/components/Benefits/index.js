@@ -25,8 +25,9 @@ export default function Benefits() {
             <h2>Benefícios para a empresa:</h2>
             <ul>
               <li>Aprimoramento do clima organizacional;</li>
-              <li>Reconhecimento Profissional Diferencial;</li>
-              <li>Competitivo Retenção de talentos;</li>
+              <li>Reconhecimento profissional;</li>
+              <li>Diferencial competitivo;</li>
+              <li>Retenção de talentos;</li>
               <li>Capacitação de mão de obra;</li>
             </ul>
           </div>
@@ -41,7 +42,8 @@ export default function Benefits() {
               <li>Preparação para oportunidades internas;</li>
               <li>Capacidade de atender demandas do mercado, suprir “Gaps”;</li>
               <li>Investimento Valioso;</li>
-              <li>Horas complementares Certificado;</li>
+              <li>Horas complementares;</li>
+              <li>Certificado</li>
             </ul>
           </div>
         </Teste>

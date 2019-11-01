@@ -79,6 +79,11 @@ export const Content = styled.div`
         margin-top: 20px;
         margin-bottom: 340px;
         text-align: center;
+        max-width: 300px;
+
+        br {
+          display: none;
+        }
       }
     }
 
