@@ -4,9 +4,10 @@ import background from '../../assets/sunset.png';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 
   background: url(${background}) no-repeat;
+
   background-size: cover;
 
   display: flex;
@@ -15,8 +16,11 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 1100px;
   margin: auto;
-  margin-top: -130px;
+  margin-top: -70px;
   padding: 30px;
+  @media (max-width: 720px) {
+    padding: 5px;
+  }
 
   border-radius: 10px;
 
@@ -25,8 +29,12 @@ export const Content = styled.div`
   align-items: center;
 
   img {
-    margin-bottom: 50px;
+    margin-top: 100px;
     width: 300px;
+
+    @media (max-width: 720px) {
+      width: 60%;
+    }
   }
 
   display: flex;
@@ -38,6 +46,10 @@ export const Content = styled.div`
 export const Text = styled.div`
   display: flex;
 
+  @media (max-width: 720px) {
+    flex-direction: column;
+  }
+
   div {
     margin: 0 15px;
     display: flex;
@@ -46,7 +58,11 @@ export const Text = styled.div`
     align-items: center;
 
     img {
+      margin-top: 50px;
       height: 70px;
+      @media (max-width: 720px) {
+        height: 50px;
+      }
     }
 
     h1 {
