@@ -31,10 +31,10 @@ export const Content = styled.div`
   margin: auto;
 
   display: flex;
+  justify-content: center;
 
   div {
     margin-right: 85px;
-    /* width: 100%; */
 
     @media (max-width: 720px) {
       display: flex;
@@ -74,10 +74,10 @@ export const Content = styled.div`
       font-size: 2rem;
       color: #fff;
       margin-top: 150px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       @media (max-width: 720px) {
         margin-top: 20px;
-        margin-bottom: 340px;
+        margin-bottom: 335px;
         text-align: center;
         max-width: 300px;
 
