@@ -15,9 +15,9 @@ export default function Contact() {
       <section>
         <h1>Agende sua aula experimental</h1>
         <Form onSubmit={handleSubmit}>
-          <Input name="name" placeholder="NOME" />
-          <Input name="email" placeholder="E-MAIL" />
-          <Input name="whatsapp" placeholder="TELEFONE(WHATSAPP)" />
+          <Input name="name" placeholder="Nome" />
+          <Input name="email" placeholder="E-mail" />
+          <Input name="whatsapp" placeholder="Telefone (Whatsapp)" />
           <Input
             name="message"
             multiline
@@ -25,7 +25,7 @@ export default function Contact() {
             maxLength="250"
           />
 
-          <button type="submit">ENVIAR</button>
+          <button type="submit">Eenviar</button>
         </Form>
 
         <div>

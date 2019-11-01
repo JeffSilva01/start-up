@@ -23,22 +23,26 @@ export default function Benefits() {
         <Teste>
           <div>
             <h2>Benefícios para a empresa:</h2>
-            <p>
-              Aprimoramento do clima organizacional Reconhecimento Profissional
-              Diferencial Competitivo Retenção de talentos Capacitação de mão de
-              obra
-            </p>
+            <ul>
+              <li>Aprimoramento do clima organizacional;</li>
+              <li>Reconhecimento Profissional Diferencial;</li>
+              <li>Competitivo Retenção de talentos;</li>
+              <li>Capacitação de mão de obra;</li>
+            </ul>
           </div>
 
           <hr />
 
-          <div>
+          <div id="segunda">
             <h2>Benefícios para os funcionários:</h2>
-            <p>
-              Otimização do tempo Preparação para oportunidades internas;
-              Capacidade de atender demandas do mercado, suprir “Gaps”.
-              Investimento Valioso Horas complementares Certificado
-            </p>
+
+            <ul>
+              <li>Otimização do tempo;</li>
+              <li>Preparação para oportunidades internas;</li>
+              <li>Capacidade de atender demandas do mercado, suprir “Gaps”;</li>
+              <li>Investimento Valioso;</li>
+              <li>Horas complementares Certificado;</li>
+            </ul>
           </div>
         </Teste>
       </Content>

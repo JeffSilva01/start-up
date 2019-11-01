@@ -14,7 +14,7 @@ export default function Initial() {
             <img src={points} alt="points" />
             <h1>
               Ingles para você <br />
-              <strong>na sua empresa.</strong>
+              <strong>na sua empresa</strong>
             </h1>
           </div>
 

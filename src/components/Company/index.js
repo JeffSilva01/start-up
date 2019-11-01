@@ -21,13 +21,13 @@ export default function Company() {
               que ministra aulas de inglês in company. A metodologia de ensino
               da Start Up permite ao aluno falar, ler, escrever e compreender o
               novo idioma naturalmente, vivenciando situações de trabalho. Além
-              de meios de aprendizados eficazes, tabmém oferecemos o teste de
+              de meios de aprendizados eficazes, também oferecemos o teste de
               proficiência TOEIC ao final do curso.
             </p>
           </div>
           <div>
             <img src={megaphone} alt="megaphone" />
-            <h1>Propósta:</h1>
+            <h1>Propósito:</h1>
             <p>
               Transformar carreiras por meio da aptidão ao inglês profissional.
             </p>
@@ -45,7 +45,7 @@ export default function Company() {
               tecnológicos para impulsionar desempenho. <br />
               <strong>Cortesia:</strong> Empatia para desenvolver os alunos.
               <br />
-              <strong>Personalização:</strong> Acompanharmento individual para
+              <strong>Personalização:</strong> Acompanhamento individual para
               motivação e engajamento.
             </p>
           </div>

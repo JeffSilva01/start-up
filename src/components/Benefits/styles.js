@@ -66,6 +66,10 @@ export const Teste = styled.div`
     background-color: #aaa;
   }
 
+  #segunda {
+    margin-top: 30px;
+  }
+
   div {
     display: flex;
     flex-direction: column;
@@ -73,9 +77,10 @@ export const Teste = styled.div`
     width: 300px;
     text-align: center;
 
-    p {
-      margin-top: 20px;
-      text-align: center;
+    ul {
+      max-width: 230px;
+      margin-top: 10px;
+      text-align: start;
     }
   }
 

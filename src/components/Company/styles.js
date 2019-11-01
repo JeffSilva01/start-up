@@ -19,7 +19,7 @@ export const Content = styled.div`
   margin-top: -70px;
   padding: 30px;
   @media (max-width: 720px) {
-    padding: 5px;
+    padding: 20px;
     margin-top: -50px;
   }
 
@@ -72,6 +72,9 @@ export const Text = styled.div`
 
     p {
       text-align: justify;
+      @media (max-width: 720px) {
+        text-align: center;
+      }
     }
 
     hr {
