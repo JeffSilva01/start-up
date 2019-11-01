@@ -33,8 +33,8 @@ export const Content = styled.div`
   display: flex;
 
   div {
-    margin-right: 110px;
-    width: 100%;
+    margin-right: 85px;
+    /* width: 100%; */
 
     @media (max-width: 720px) {
       display: flex;
@@ -77,7 +77,7 @@ export const Content = styled.div`
       margin-bottom: 20px;
       @media (max-width: 720px) {
         margin-top: 20px;
-        margin-bottom: 325px;
+        margin-bottom: 340px;
         text-align: center;
       }
     }
@@ -95,7 +95,7 @@ export const Content = styled.div`
   }
 
   img {
-    height: 500px;
+    height: 550px;
     margin-top: 60px;
     z-index: 1;
     @media (max-width: 720px) {

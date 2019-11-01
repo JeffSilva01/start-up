@@ -20,6 +20,7 @@ export const Content = styled.div`
   padding: 30px;
   @media (max-width: 720px) {
     padding: 5px;
+    margin-top: -50px;
   }
 
   border-radius: 10px;
