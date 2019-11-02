@@ -50,6 +50,7 @@ export const Container = styled.div`
         border: none;
         border-radius: 5px;
         margin-bottom: 7px;
+        text-align: center;
       }
 
       textarea {

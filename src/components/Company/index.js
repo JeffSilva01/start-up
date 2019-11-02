@@ -35,7 +35,9 @@ export default function Company() {
                 Transformar carreiras por meio da aptidão ao inglês
                 profissional.
               </p>
-              <hr />
+              <br />
+              <br />
+              <br />
               <h1>Visão:</h1>
               <p>
                 Ser referência em inglês profissional no estado do Ceará até

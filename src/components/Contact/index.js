@@ -1,20 +1,34 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { Form, Input } from '@rocketseat/unform';
+import { toast } from 'react-toastify';
+import * as Yup from 'yup';
 
 import Logo from '../../assets/logo.svg';
 
 import { Container } from './styles';
 
+const schema = Yup.object().shape({
+  name: Yup.string().required('Nos diga seu nome'),
+  email: Yup.string()
+    .email('Insira um e-mail válido')
+    .required('O e-mail é obrigatório'),
+  whatsapp: Yup.string()
+    .min(10)
+    .required('Insira seu what (85) 98888888'),
+});
+
 export default function Contact() {
-  function handleSubmit({ name, email, whatsapp, message }) {
-    console.log(name, email, whatsapp, message);
+  function handleSubmit(data, { resetForm }) {
+    console.log(data);
+    resetForm();
+    toast.success('Sua mensagem foi enviada.');
   }
   return (
     <Container>
       <section>
         <h1>Agende sua aula experimental</h1>
-        <Form onSubmit={handleSubmit}>
+        <Form schema={schema} onSubmit={handleSubmit}>
           <Input name="name" placeholder="Nome" />
           <Input name="email" placeholder="E-mail" />
           <Input name="whatsapp" placeholder="Telefone (Whatsapp)" />
@@ -24,7 +38,6 @@ export default function Contact() {
             placeholder="Deixe sua mensagem"
             maxLength="250"
           />
-
           <button type="submit">Enviar</button>
         </Form>
 
