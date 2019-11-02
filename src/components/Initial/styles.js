@@ -95,6 +95,7 @@ export const Content = styled.div`
       padding: 10px;
       color: #fff;
       font-weight: 700;
+      z-index: 1;
     }
   }
 
