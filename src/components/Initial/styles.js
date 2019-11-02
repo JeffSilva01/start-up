@@ -77,7 +77,7 @@ export const Content = styled.div`
       margin-bottom: 20px;
       @media (max-width: 540px) {
         margin-top: 20px;
-        margin-bottom: 330px;
+        margin-bottom: 340px;
         text-align: center;
         max-width: 300px;
 
