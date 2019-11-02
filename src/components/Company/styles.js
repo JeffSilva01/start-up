@@ -18,7 +18,7 @@ export const Content = styled.div`
   padding: 20px;
   margin: auto;
   margin-top: -70px;
-  @media (max-width: 720px) {
+  @media (max-width: 540px) {
     padding: 20px;
     margin-top: -50px;
   }
@@ -33,7 +33,7 @@ export const Content = styled.div`
     margin-top: 100px;
     width: 300px;
 
-    @media (max-width: 720px) {
+    @media (max-width: 540px) {
       width: 60%;
     }
   }
@@ -47,7 +47,7 @@ export const Content = styled.div`
 export const Text = styled.div`
   display: flex;
 
-  @media (max-width: 720px) {
+  @media (max-width: 540px) {
     flex-direction: column;
   }
 
@@ -61,7 +61,7 @@ export const Text = styled.div`
     img {
       margin-top: 50px;
       height: 70px;
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         height: 50px;
       }
     }
@@ -72,7 +72,7 @@ export const Text = styled.div`
 
     p {
       text-align: justify;
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         text-align: center;
       }
 

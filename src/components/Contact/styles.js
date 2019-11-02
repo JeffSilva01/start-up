@@ -19,7 +19,7 @@ export const Container = styled.div`
       font-weight: 400;
       margin-bottom: 40px;
 
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         font-size: 2.6rem;
         margin-bottom: 5px;
         text-align: center;
@@ -88,14 +88,14 @@ export const Container = styled.div`
       align-items: center;
       justify-content: center;
 
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         flex-direction: column;
       }
 
       img {
         width: 20rem;
 
-        @media (max-width: 720px) {
+        @media (max-width: 540px) {
           margin-bottom: 15px;
         }
       }
@@ -105,7 +105,7 @@ export const Container = styled.div`
         align-items: initial;
         margin-left: 50px;
 
-        @media (max-width: 720px) {
+        @media (max-width: 540px) {
           margin: auto;
           align-items: center;
         }

@@ -18,7 +18,7 @@ export const Content = styled.div`
   background: url(${background}) no-repeat right;
   background-size: contain;
 
-  @media (max-width: 720px) {
+  @media (max-width: 540px) {
     background: url(${backgroundCell}) no-repeat;
     background-size: cover;
     width: 100%;
@@ -36,7 +36,7 @@ export const Content = styled.div`
   div {
     margin-right: 85px;
 
-    @media (max-width: 720px) {
+    @media (max-width: 540px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -48,7 +48,7 @@ export const Content = styled.div`
       align-items: center;
       margin-top: 50px;
 
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         margin-top: 15px;
         justify-content: center;
       }
@@ -63,7 +63,7 @@ export const Content = styled.div`
         font-size: 4.5rem;
         font-weight: 400;
         color: #fff;
-        @media (max-width: 720px) {
+        @media (max-width: 540px) {
           font-size: 4rem;
           text-align: center;
         }
@@ -74,10 +74,10 @@ export const Content = styled.div`
       font-size: 2rem;
       color: #fff;
       margin-top: 150px;
-      margin-bottom: 10px;
-      @media (max-width: 720px) {
+      margin-bottom: 20px;
+      @media (max-width: 540px) {
         margin-top: 20px;
-        margin-bottom: 335px;
+        margin-bottom: 330px;
         text-align: center;
         max-width: 300px;
 
@@ -102,7 +102,7 @@ export const Content = styled.div`
     height: 550px;
     margin-top: 60px;
     z-index: 1;
-    @media (max-width: 720px) {
+    @media (max-width: 540px) {
       display: none;
     }
   }

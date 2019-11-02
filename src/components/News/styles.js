@@ -12,7 +12,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
 
-    @media (max-width: 720px) {
+    @media (max-width: 540px) {
       width: 100%;
       margin: auto;
       flex-direction: column;
@@ -23,7 +23,7 @@ export const Container = styled.div`
       width: 600px;
       margin-right: 15px;
 
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         width: 50%;
       }
     }
@@ -36,7 +36,7 @@ export const Container = styled.div`
       flex-direction: column;
       align-items: center;
 
-      @media (max-width: 720px) {
+      @media (max-width: 540px) {
         width: 80%;
       }
 

@@ -5,7 +5,7 @@ export const Container = styled.div`
   min-height: 100%;
   padding-top: 50px;
 
-  @media (max-width: 720px) {
+  @media (max-width: 540px) {
     padding-top: 15px;
   }
 `;
@@ -25,7 +25,7 @@ export const Content = styled.div`
     text-align: center;
     margin-bottom: 50px;
 
-    @media (max-width: 720px) {
+    @media (max-width: 540px) {
       font-size: 2rem;
       margin-bottom: 10px;
       max-width: 300px;
@@ -55,7 +55,7 @@ export const Buttons = styled.div`
       color: #fff;
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 540px) {
       padding: 8px;
     }
   }
