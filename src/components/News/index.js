@@ -3,11 +3,14 @@ import React from 'react';
 import { Container } from './styles';
 
 import computer from '../../assets/computer.png';
+import startistic from '../../assets/statistics.svg';
 
 export default function News() {
   return (
     <Container>
       <div>
+        <img id="startisticNew" src={startistic} alt="startistic" />
+
         <img src={computer} alt="computer" />
         <p>
           SAO PAULO — Consensos são raros, mas existem. E, quando falamos de

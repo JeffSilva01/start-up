@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import background from '../../assets/background.png';
+import background from '../../assets/background.jpg';
 import backgroundCell from '../../assets/background-cell.jpg';
 
 export const Container = styled.div`
@@ -9,29 +9,32 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
+  align-items: center;
 
   background-position-x: right;
   background-color: #3f409c;
-`;
 
-export const Content = styled.div`
   background: url(${background}) no-repeat right;
-  background-size: contain;
+  background-size: cover;
 
   @media (max-width: 540px) {
     background: url(${backgroundCell}) no-repeat;
     background-size: cover;
+  }
+`;
+
+export const Content = styled.div`
+  @media (max-width: 540px) {
     width: 100%;
     height: 100%;
     margin: auto;
+    display: inline-block;
   }
 
   width: 1100px;
   height: 100%;
   margin: auto;
-
   display: flex;
-  justify-content: center;
 
   div {
     margin-right: 85px;
@@ -100,9 +103,10 @@ export const Content = styled.div`
   }
 
   img {
-    height: 550px;
-    margin-top: 60px;
+    height: 86%;
+    margin-top: 75px;
     z-index: 1;
+
     @media (max-width: 540px) {
       display: none;
     }

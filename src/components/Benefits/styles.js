@@ -63,8 +63,10 @@ export const Buttons = styled.div`
 
 export const Teste = styled.div`
   display: flex;
-  justify-content: space-around;
+  width: 100%;
+
   align-items: center;
+  justify-content: space-around;
   margin-top: 70px;
 
   hr {
@@ -72,9 +74,9 @@ export const Teste = styled.div`
     background-color: #aaa;
   }
 
-  #segunda {
+  /* #segunda {
     margin-top: 30px;
-  }
+  } */
 
   div {
     display: flex;
@@ -84,13 +86,16 @@ export const Teste = styled.div`
     text-align: center;
 
     ul {
-      max-width: 230px;
       margin-top: 10px;
       text-align: start;
+      @media (max-width: 720px) {
+        width: 200px;
+      }
     }
   }
 
   @media (max-width: 720px) {
+    max-width: 230px;
     flex-direction: column;
     margin-top: 5px;
 

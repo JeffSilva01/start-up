@@ -1,0 +1,25 @@
+#img {
+  width: 200px;
+  margin: 50px auto auto 510px;
+  z-index: 100;
+
+  border: 1px dashed red;
+  transform: rotate(-45deg);
+
+}
+
+@media (max-width: 540px) {
+  #img, #startistic {
+    display: none;
+  }
+}
+@media (min-width: 540px) {
+  #startisticNew {
+    display: none;
+  }
+}
+
+#startisticNew {
+  margin: 20px 0;
+  width: 200px;
+}
